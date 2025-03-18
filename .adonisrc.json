@@ -1,0 +1,9 @@
+{
+    "compiler": {
+      "typescript": "tsconfig.json"
+    },
+    "manifest": {
+      "providers": "./providers"
+    }
+  }
+  

@@ -1,0 +1,20 @@
+meta {
+  name: UPDATE_player
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://localhost:3333/players/11
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Carlos Alcaraz",
+    "age": 20,
+    "nationality": "Spain",
+    "grand_slam_titles": 4
+  }
+}
